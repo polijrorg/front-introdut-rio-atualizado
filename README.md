@@ -1,12 +1,16 @@
-# ✨ NextJS project template
+# ✨ Template de Treinamento Poli Junior
 
-This is a NextJS template for initiating modern web projects!
+Este é um template NextJS para treinamento de novos membros da Poli Junior, visando introduzir conceitos e tecnologias modernas de desenvolvimento web.
 
-## 🔎 Demo
+## 📚 Sobre o treinamento
 
-A live demo of this template is available at: https://polijrorg.github.io/front-introdut-rio-atualizado/
+Este template faz parte do programa de capacitação técnica da Poli Junior, proporcionando aos membros uma introdução prática ao desenvolvimento front-end utilizando tecnologias atuais do mercado.
 
-## 🛠️ What is included?
+## 🔎 Demonstração
+
+Uma demonstração online deste template está disponível em:  <!-- GITHUB_PAGES_URL -->
+
+## 🛠️ Tecnologias e ferramentas
 
 - Next.js 15+
 - TypeScript
@@ -19,79 +23,87 @@ A live demo of this template is available at: https://polijrorg.github.io/front-
 - React Testing Library
 - Radix UI
 - Stitches
-- Chromatic
-- GitHub Actions for automatic deployment
+- GitHub Actions para deploy automático
 
-## 🧿 How to use
+## 🧿 Como utilizar
 
-Use this repository as template for your project and run:
+Clone este repositório e execute:
 
 ```bash
-# Using npm
+# Usando npm
 npm install
 
-# Or using yarn
+# Ou usando yarn
 yarn
 ```
 
-To run this project in development mode:
+Para executar o projeto em modo de desenvolvimento:
 
 ```bash
-# Using npm
+# Usando npm
 npm run dev
 
-# Or using yarn
+# Ou usando yarn
 yarn dev
 ```
 
-To run tests:
+Para executar os testes:
 
 ```bash
-# Using npm
+# Usando npm
 npm test
 
-# Or using yarn
+# Ou usando yarn
 yarn test
 
-# Run in watch mode
+# Executar em modo de observação
 npm test:watch
-# or
+# ou
 yarn test:watch
 ```
 
 ## 📕 Storybook
 
-To run Storybook:
+Para executar o Storybook:
 
 ```bash
-# Using npm
+# Usando npm
 npm run storybook
 
-# Or using yarn
+# Ou usando yarn
 yarn storybook
 ```
 
-## 📁 Project structure
+## 📁 Estrutura do projeto
 
 ```
 src/
-  components/      # Reusable components
-  hooks/           # Custom hooks
-  interfaces/      # Type and interface definitions
-  pages/           # Application pages
-  styles/          # Themes and style utilities
-  template/        # Page templates
-  types/           # Type definitions
-  utils/           # Utility functions
+  components/      # Componentes reutilizáveis
+  hooks/           # Hooks customizados
+  interfaces/      # Definições de tipos e interfaces
+  pages/           # Páginas da aplicação
+  styles/          # Temas e utilidades de estilo
+  template/        # Templates de páginas
+  types/           # Definições de tipos
+  utils/           # Funções utilitárias
 ```
 
 ## 🚀 Deploy
 
-This template is configured for automatic deployment to GitHub Pages through GitHub Actions. Each push to the main branch will trigger a deployment.
+Este template está configurado para deploy automático no GitHub Pages através do GitHub Actions. Cada push para a branch principal iniciará um deploy.
 
-## 🕹 Other Setups
+## 🎓 Objetivos de aprendizagem
 
-This template has other configurations that use the main branch as base. To access them, switch to the appropriate branch:
+Ao trabalhar com este template, os membros da Poli Junior poderão:
 
-- Material UI: `feat/MaterialUI`
-- Next.js 12 + React Query: `feat/next12`
+1. Compreender a estrutura de um projeto Next.js moderno
+2. Aprender a construir interfaces com Styled Components
+3. Praticar tipagem com TypeScript
+4. Conhecer ferramentas de qualidade de código como ESLint e Prettier
+5. Implementar testes com Jest e React Testing Library
+6. Documentar componentes com Storybook
+7. Entender fluxos de CI/CD com GitHub Actions
+
+## 👥 Contato
+
+Para dúvidas ou mais informações sobre o treinamento, entre em contato com a equipe de capacitação da Poli Junior.
