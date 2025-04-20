@@ -1,5 +1,6 @@
 const withImages = require('next-images');
 const { createIncrementalProgram } = require('typescript');
+
 module.exports = {
     webpack(config) {
         withImages();
@@ -19,5 +20,10 @@ module.exports = {
               pathname: '/images',
             },
           ],
-    }
+        unoptimized: true,
+    },
+    output: 'export',
+    distDir: 'out',
+    basePath: process.env.NODE_ENV === 'production' ? '/treinamento-thiago-Medeiros' : '',
+    trailingSlash: true,
 };
