@@ -1,50 +1,75 @@
 # ✨ NextJS project template
 
-This is a NextJs template for initiate projects!
+This is a NextJS template for initiating modern web projects!
 
 ## 🔎 Demo
 
-<<<<<<< HEAD
 A live demo of this template is available at: <!-- GITHUB_PAGES_URL -->
-=======
-Uma demonstração do template está disponível em: https://polijrorg.github.io/front-introdut-rio-atualizado/
->>>>>>> 60827bad2c037e8fbd01ccee7360fec692547227
 
 ## 🛠️ What is included?
 
+- Next.js 15+
 - TypeScript
-- Styled-components
+- Styled Components
 - Storybook
-- Husky
-- Eslint
+- Husky (Git hooks)
+- ESLint
 - Prettier
 - Jest
-- React-Testing Library
-- Radix
+- React Testing Library
+- Radix UI
 - Stitches
 - Chromatic
+- GitHub Actions for automatic deployment
 
 ## 🧿 How to use
+
 Use this repository as template for your project and run:
 
-`yarn install`
-or
-`yarn`
+```bash
+# Using npm
+npm install
 
-To run this project use:
+# Or using yarn
+yarn
+```
 
-`yarn dev`
+To run this project in development mode:
 
-To run tests use:
-`yarn test`
-Or to run in watch mode:
-`yarn test:watch`
+```bash
+# Using npm
+npm run dev
 
-Or use as template when creating your new repository
+# Or using yarn
+yarn dev
+```
 
-### 📕 Storybook
+To run tests:
 
-To run storybook use: `yarn storybook`
+```bash
+# Using npm
+npm test
+
+# Or using yarn
+yarn test
+
+# Run in watch mode
+npm test:watch
+# or
+yarn test:watch
+```
+
+## 📕 Storybook
+
+To run Storybook:
+
+```bash
+# Using npm
+npm run storybook
+
+# Or using yarn
+yarn storybook
+```
 
 ## 📁 Project structure
 
@@ -62,11 +87,11 @@ src/
 
 ## 🚀 Deploy
 
-This template is configured for automatic deployment to GitHub Pages through GitHub Actions.
+This template is configured for automatic deployment to GitHub Pages through GitHub Actions. Each push to the main branch will trigger a deployment.
 
 ## 🕹 Other Setups
 
-This template has others configurations that use the main branch as base, to access it just go for the branch that implements what you need and use as template when creating your repository or clone it.
+This template has other configurations that use the main branch as base. To access them, switch to the appropriate branch:
 
-- MaterialUI = branch: `feat/MaterialUI`
-- Next 12 + ReactQuery = branch: `feat/next12` ( This will be the main branch after some tests )
+- Material UI: `feat/MaterialUI`
+- Next.js 12 + React Query: `feat/next12`
