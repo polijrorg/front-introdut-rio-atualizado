@@ -4,7 +4,7 @@ This is a NextJS template for initiating modern web projects!
 
 ## 🔎 Demo
 
-A live demo of this template is available at: <!-- GITHUB_PAGES_URL -->
+A live demo of this template is available at: https://polijrorg.github.io/front-introdut-rio-atualizado/
 
 ## 🛠️ What is included?
 
