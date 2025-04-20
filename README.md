@@ -4,7 +4,7 @@ Este é um template para projetos Next.js com TypeScript e Styled Components.
 
 ## Demonstração
 
-Uma demonstração do template está disponível em: <!-- GITHUB_PAGES_URL -->
+Uma demonstração do template está disponível em: https://polijrorg.github.io/front-introdut-rio-atualizado/
 
 ## Tecnologias utilizadas
 
