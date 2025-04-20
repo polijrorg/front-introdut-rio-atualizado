@@ -34,21 +34,21 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
-          
+
       - name: Atualizar URL do GitHub Pages no README
         run: |
           # Obter o nome do usuário ou organização do GitHub
           GITHUB_USERNAME=$(echo $GITHUB_REPOSITORY | cut -d "/" -f 1)
           REPO_NAME=$(echo $GITHUB_REPOSITORY | cut -d "/" -f 2)
           GITHUB_PAGES_URL="https://$GITHUB_USERNAME.github.io/$REPO_NAME/"
-          
+
           # Substituir o marcador pelo URL real
           sed -i "s|<!-- GITHUB_PAGES_URL -->|$GITHUB_PAGES_URL|g" README.md
-          
+
           # Configurar Git
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          
+
           # Commit e push das alterações
           git add README.md
           git commit -m "docs: atualiza URL do GitHub Pages no README" || echo "Sem alterações para commit"
