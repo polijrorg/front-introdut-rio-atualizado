@@ -25,7 +25,7 @@ jobs:
         run: npm ci
 
       - name: Build do projeto (com exportação estática)
-        run: npm run build && npm run export
+        run: npm run build
         env:
           NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
 
@@ -43,13 +43,13 @@ jobs:
           GITHUB_PAGES_URL="https://$GITHUB_USERNAME.github.io/$REPO_NAME/"
 
           # Substituir o marcador pelo URL real
-          sed -i "s|<!-- GITHUB_PAGES_URL -->|$GITHUB_PAGES_URL|g" .github/workflows/README.md
+          sed -i "s|<!-- GITHUB_PAGES_URL -->|$GITHUB_PAGES_URL|g" README.md
 
           # Configurar Git
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
           # Commit e push das alterações
-          git add .github/workflows/README.md
+          git add README.md
           git commit -m "docs: atualiza URL do GitHub Pages no README" || echo "Sem alterações para commit"
           git push
