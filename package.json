@@ -10,8 +10,8 @@
         "chromatic": "chromatic"
     },
     "lint-staged": {
-        "*.ts(x)?": [
-            "yarn lint --fix"
+        "src/**/*.ts(x)?": [
+            "eslint --max-warnings=0 --fix"
         ]
     },
     "dependencies": {
