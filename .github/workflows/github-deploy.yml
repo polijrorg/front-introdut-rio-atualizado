@@ -15,14 +15,19 @@ jobs:
       - name: Checkout código
         uses: actions/checkout@v3
 
+      - name: Configuração do Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
       - name: Instalar dependências
-        run: npm install
+        run: npm ci
 
-      - name: Build do projeto
+      - name: Build do projeto (com exportação estática)
         run: npm run build
-
-      - name: Exportar (Next.js estático)
-        run: npm run export
+        env:
+          NEXT_EXPORT: true
 
       - name: Deploy para GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
