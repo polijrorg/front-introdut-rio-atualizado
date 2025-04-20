@@ -5,7 +5,7 @@ This is a NextJs template for initiate projects!
 ## 🔎 Demo
 
 <<<<<<< HEAD
-A live demo of this template is available at: <!-- GITHUB_PAGES_URL -->
+A live demo of this template is available at: https://polijrorg.github.io/front-introdut-rio-atualizado/
 =======
 Uma demonstração do template está disponível em: https://polijrorg.github.io/front-introdut-rio-atualizado/
 >>>>>>> 60827bad2c037e8fbd01ccee7360fec692547227
