@@ -21,3 +21,7 @@ export const Comment = styled.p`
     color: ${({ theme }) => theme.colors.slate11};
     font-size: 28px;
 `;
+export const Description = styled.p`
+    color: ${({ theme }) => theme.colors.slate11};
+    font-size: 20px;
+`;
