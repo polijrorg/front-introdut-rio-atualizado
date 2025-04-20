@@ -1,43 +1,68 @@
-# Template de Projeto Next.js
+# ✨ NextJS project template
 
-Este é um template para projetos Next.js com TypeScript e Styled Components.
+This is a NextJs template for initiate projects!
 
-## Demonstração
+## 🔎 Demo
 
-Uma demonstração do template está disponível em: <!-- GITHUB_PAGES_URL -->
+A live demo of this template is available at: <!-- GITHUB_PAGES_URL -->
 
-## Tecnologias utilizadas
+## 🛠️ What is included?
 
-- Next.js
 - TypeScript
-- Styled Components
-- React
+- Styled-components
+- Storybook
+- Husky
+- Eslint
+- Prettier
+- Jest
+- React-Testing Library
+- Radix
+- Stitches
+- Chromatic
 
-## Como utilizar
+## 🧿 How to use
+Use this repository as template for your project and run:
 
-1. Faça um clone deste repositório
-2. Instale as dependências com `npm install` ou `yarn`
-3. Execute o projeto em modo de desenvolvimento com `npm run dev` ou `yarn dev`
-4. Personalize o projeto conforme suas necessidades
+`yarn install`
+or
+`yarn`
 
-## Estrutura do projeto
+To run this project use:
+
+`yarn dev`
+
+To run tests use:
+`yarn test`
+Or to run in watch mode:
+`yarn test:watch`
+
+Or use as template when creating your new repository
+
+### 📕 Storybook
+
+To run storybook use: `yarn storybook`
+
+## 📁 Project structure
 
 ```
 src/
-  components/      # Componentes reutilizáveis
-  hooks/           # Hooks personalizados
-  interfaces/      # Definições de tipos e interfaces
-  pages/           # Páginas da aplicação
-  styles/          # Temas e utilidades de estilo
-  template/        # Templates de página
-  types/           # Definições de tipos
-  utils/           # Funções utilitárias
+  components/      # Reusable components
+  hooks/           # Custom hooks
+  interfaces/      # Type and interface definitions
+  pages/           # Application pages
+  styles/          # Themes and style utilities
+  template/        # Page templates
+  types/           # Type definitions
+  utils/           # Utility functions
 ```
 
-## Deploy
+## 🚀 Deploy
 
-Este template já está configurado para deploy automático no GitHub Pages através de GitHub Actions.
+This template is configured for automatic deployment to GitHub Pages through GitHub Actions.
 
-## Licença
+## 🕹 Other Setups
 
-MIT
+This template has others configurations that use the main branch as base, to access it just go for the branch that implements what you need and use as template when creating your repository or clone it.
+
+- MaterialUI = branch: `feat/MaterialUI`
+- Next 12 + ReactQuery = branch: `feat/next12` ( This will be the main branch after some tests )
