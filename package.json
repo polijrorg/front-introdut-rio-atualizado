@@ -5,6 +5,7 @@
         "dev": "next",
         "build": "next build",
         "start": "next start",
+        "export": "next export",
         "lint": "eslint src --max-warnings=0",
         "prepare": "husky install",
         "chromatic": "chromatic"

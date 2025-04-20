@@ -24,6 +24,6 @@ module.exports = {
     },
     output: 'export',
     distDir: 'out',
-    basePath: process.env.NODE_ENV === 'production' ? '/treinamento-thiago-Medeiros' : '',
+    basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
     trailingSlash: true,
 };
