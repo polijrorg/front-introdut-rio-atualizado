@@ -1,6 +1,6 @@
 # ✨ NextJS project template
 
-This is a NextJS template for initiating modern web projects!
+This is a NextJS template for initiating modern web projects!!
 
 ## 🔎 Demo
 
